@@ -1,0 +1,405 @@
+.main-container {
+    width: 100%;
+    height: auto;
+    padding-top: 75px;
+    background-color: #17141f;
+    display: flex;
+    padding-left: 350px;
+}
+
+.all-entrys {
+    width: 325px;
+    height: 100%;
+    position: fixed;
+    margin-right: 50px;
+    left: 0;
+}
+
+.entrys {
+    width: 250px;
+    height: 95%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.entry {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid rgb(71, 71, 71);
+    padding: 3px;
+    margin: 5px 0px;
+}
+
+.entry:hover {
+    background-color: rgba(255,255,255,.3);
+}
+
+.entry a {
+    overflow-wrap: anywhere;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.main-container .welcome-section {
+    width: 900px;
+    height: 700px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.welcome-section img {
+    width: 400px;
+    margin-bottom: 35px;
+}
+
+.welcome-section .welcome-title h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: 1px;
+}
+
+.welcome-section .welcome-title h2 {
+    font-size: 23px;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+}
+
+.welcome-section .announcements {
+    margin-top: 25px;
+}
+
+.announcements p {
+    font-size: 20px;   
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .5px;
+}
+
+.announcements h3 {
+    font-size: 25px;
+    font-family: 'Mulish' , sans-serif;
+    color: white;
+}
+
+.exclamation-red {
+    font-size: 50px;
+    color: red;
+    font-family: 'Recursive' , sans-serif;
+    margin-right: 10px;
+}
+
+.welcome-section .how-to-use {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    text-align: start;
+    color: white;
+}
+
+.how-to-use h3 {
+    font-family: 'Pacifico' , sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.how-to-use p {
+    font-family: 'Poppins' , sans-serif;
+    text-indent: 20px;
+    margin-bottom: 15px;
+}
+
+.how-to-use p:last-child {
+    margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.populerTitle {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.populerTitle h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.populerTitle .titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.populerTitle .titles .title {
+    margin: 0px 10px;
+}
+
+.populerTitle .titles .title a {
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-style: italic;
+    transition: all .2s ease;
+}
+
+.populerTitle .titles .title a p {
+    padding:  0px 10px !important;
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+
+.populerTitle .titles .title a p:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.madeby {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 1px solid rgb(71, 71, 71);
+}
+
+.madeby h1 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: 1px;
+}
+
+.account-links {
+    display: flex;
+}
+
+.account-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.account-button a {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+.account-button a:hover + .--message {
+    display: block;
+}
+
+.account-button .--message {
+    padding: 3px;
+    background-color: black;
+    border-radius: 5px;
+    display: none;
+    margin-top: -27px;
+    position: absolute;
+}
+
+.account-button .--message p {
+    font-size: 13px;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    letter-spacing: 1px;
+}
+
+.comments {
+    width: 900px;
+    height: fit-content;
+    padding: 25px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.comments h1 {
+    font-size: 45px;
+    font-family: 'Mulish' , sans-serif;
+    margin-bottom: 20px;
+}
+
+.comment {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border-bottom: 2px solid rgb(71, 71, 71);
+}
+
+.comment pre {
+    font-size: 20px;
+    font-family: 'Poppins' , sans-serif;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    padding-bottom: 10px;
+}
+
+.comment .owner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.owner h4 {
+    font-size: 18px;
+    font-family: 'Mulish' , sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+.owner h4:hover {
+    color: rgb(190, 190, 190);
+}
+
+.owner p {
+    font-size: 13px;
+    font-family: 'Mulish' , sans-serif;
+    margin-right: 20px;
+}
+
+.owner h3 {
+    font-size: 20px;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: 1px;
+}
+
+.hideUsername {
+    color: rgb(255, 53, 53) !important;
+}
+
+.addComment {
+    width: 100%;
+    height: 275px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.addComment h5 {
+    font-size: 20px;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.addComment textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Poppins' , sans-serif;
+    letter-spacing: .5px;
+    background-color: rgb(202, 202, 202);
+    border: 3px solid rgb(119, 119, 255);
+    transition: all .2s ease;
+    border-radius: 5px;
+}
+
+.addComment textarea:focus {
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(132, 132, 253);
+}
+
+.addComment p {
+    font-size: 15px;
+    font-family: 'Poppins' , sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.addComment button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 2px solid #fe01fc;
+    border-radius: 5px;
+    color: #fe01fc;
+    font-size: 20px;
+    transition: all .2s ease;
+}
+
+.addComment button:hover {
+    color: white;
+    background-color: #fe01fc;
+}
+
+.create-entry {
+    width: 800px;
+    height: 600px;
+    padding: 25px;
+    color: white;
+}
+
+.create-entry h4 {
+    font-size: 35px;
+    font-family: 'Mulish' , sans-serif;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+.create-entry h3 {
+    font-size: 20px;
+    font-family: 'Poppins' , sans-serif;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.my-account {
+    width: 900px;
+    height: auto;
+    padding: 25px;
+    color: white;
+}
+
+.my-account h2 {
+    font-family: 'Mulish' , sans-serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.my-account h5 {
+    font-size: 18px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    margin-top: 200px;
+}
+
+.one-entry h1 {
+    font-size: 25px;
+    font-family: 'Mulish' , sans-serif;
+}
